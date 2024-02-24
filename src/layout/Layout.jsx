@@ -19,7 +19,7 @@ export const Layout = ({ children }) => {
       <div className="flex h-16 bg-yellow-300">
         <form
           onSubmit={onSearchSubmit}
-          className="m-auto flex maw-w-screen-lg flex-1 items-center gap-4 px-4"
+          className="m-auto  flex max-w-screen-lg flex-1 items-center gap-4 px-4"
         >
           <Link to="/" className="text-yellow-900">
             Challenge
